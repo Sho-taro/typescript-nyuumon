@@ -12,4 +12,4 @@ class VisaCard {
 
 let myVisaCard = new VisaCard('Ham');
 console.log(myVisaCard.owner);
-// myVisaCard.owner = '新しいオーナー';
+// myVisaCard.owner = '新しいオーナー';   // readonlyなので再代入できない
