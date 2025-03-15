@@ -8,7 +8,7 @@ let numberUnknown: unknown = kansu();
 
 let sumAny = numberAny + 10;
 
-console.log(typeof numberUnknown);    // -> 'number'
+console.log(typeof numberUnknown);    // -> 'unknown'
 // let sumUnknown = numberUnknown + 10;    // コンパイルエラー：numberUnknownはunknown型なのに足し算していいのか、と言われている
 
 // unknown型はtypeofキーワードを使ったif文と相性がいい
