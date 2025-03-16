@@ -1,5 +1,7 @@
 export {};
 
+// 未定のプロパティに対して型アノテーションをする
+
 // How to write index signature
 // { [ index: typeForIndex ]: typeForValue }
 
