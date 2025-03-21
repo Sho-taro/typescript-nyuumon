@@ -12,13 +12,3 @@ type Profile = {
 //     age?: number;
 // }
 type PartialProfile = Partial<Profile>;
-
-
-// Required ← 全てのプロパティを必須（required）にする
-
-type Person = {
-    name: string;
-    age: number;
-    nationality?: string;
-}
-type RequiredPerson = Required<Person>;

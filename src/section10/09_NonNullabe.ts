@@ -1,11 +1,11 @@
 export {};
 
-// Exclude<T, U>
+// NonNullable<T>
+// ユニオン型から null型やundefined型を排除してくれる
+
 type DebugType = () => void;
 type SomeType = string | number | DebugType;
 
-// NonNullable<T>
-// ユニオン型から null型やundefined型を排除してくれる
 type MyNullableTypes = string | number | null | undefined;
 type MyNonNullableTypes = NonNullable<MyNullableTypes>;
 
